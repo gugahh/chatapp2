@@ -10,13 +10,30 @@ const App = () => {
 
 	return (
 		<div className="ui container comments">
-            <CommentDetail 
-                author={getFakeName()}
-                avatar={getFakeAvatar()}
-                date={getFakeDateAsString()}
-                phrase={getFakePhrase()}
-                />
-            <ApproveCard />
+            <ApproveCard>
+                <CommentDetail 
+                    author={getFakeName()}
+                    avatar={getFakeAvatar()}
+                    date={getFakeDateAsString()}
+                    phrase={getFakePhrase()}
+                    />
+            </ApproveCard>
+            <ApproveCard>
+                <CommentDetail 
+                    author={getFakeName()}
+                    avatar={getFakeAvatar()}
+                    date={getFakeDateAsString()}
+                    phrase={getFakePhrase()}
+                    />
+            </ApproveCard>
+            <ApproveCard>
+                <CommentDetail 
+                    author={getFakeName()}
+                    avatar={getFakeAvatar()}
+                    date={getFakeDateAsString()}
+                    phrase={getFakePhrase()}
+                    />
+            </ApproveCard>
         </div>
 	);
 };

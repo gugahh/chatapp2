@@ -1,28 +1,17 @@
 import React from 'react';
 
-const ApproveCard = prop => {
+const ApproveCard = (props) => {
+
+    //console.log(props.children);
 
     return (
 
-        <div className="card">
-            <div className="content">
-                <img className="right floated mini ui image" 
-                    src="/images/avatar/large/elliot.jpg"
-                    alt="Avatar" />
-                <div className="header">
-                    Elliot Fu
-                </div>
-                <div className="meta">
-                    Friends of Veronika
-                </div>
-                <div className="description">
-                    Elliot requested permission to view your contact details
-                </div>
-            </div>
+        <div className="ui card">
+            <div className="content">{props.children}</div>
             <div className="extra content">
                 <div className="ui two buttons">
                     <div className="ui basic green button">Approve</div>
-                    <div className="ui basic red button">Decline</div>
+                    <div className="ui basic red button">Reject</div>
                 </div>
             </div>
         </div>
