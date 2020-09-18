@@ -27,12 +27,12 @@ const App = () => {
                     />
             </ApproveCard>
             <ApproveCard>
-                <CommentDetail 
-                    author={getFakeName()}
-                    avatar={getFakeAvatar()}
-                    date={getFakeDateAsString()}
-                    phrase={getFakePhrase()}
-                    />
+                O segredo do universo é: <b>{15 + 27}</b>
+            </ApproveCard>
+            <ApproveCard>
+                <h4 style={{color: 'tomato'}}>Warning!</h4>
+                <p>Attempted SQL Injection:</p>
+                <tt>Drop table Usuarios;</tt>
             </ApproveCard>
         </div>
 	);
