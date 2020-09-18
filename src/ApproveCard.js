@@ -6,7 +6,9 @@ const ApproveCard = prop => {
 
         <div className="card">
             <div className="content">
-                <img className="right floated mini ui image" src="/images/avatar/large/elliot.jpg" />
+                <img className="right floated mini ui image" 
+                    src="/images/avatar/large/elliot.jpg"
+                    alt="Avatar" />
                 <div className="header">
                     Elliot Fu
                 </div>
